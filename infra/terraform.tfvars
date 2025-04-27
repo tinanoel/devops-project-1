@@ -13,4 +13,4 @@ ec2_ami_id     = "ami-0e35ddab05955cf57"
 
 ec2_user_data_install_apache = ""
 
-domain_name = "demo.awsdevopsnet.com"
+domain_name = "awsdevopsnet.com"
