@@ -13,11 +13,11 @@ resource "aws_db_subnet_group" "dev_proje_1_db_subnet_group" {
 }
 
 resource "aws_db_instance" "default" {
-  allocated_storage       = 10
+  allocated_storage       = 20
   storage_type            = "gp2"
   engine                  = "mysql"
   engine_version          = "8.0.35"
-  instance_class          = "db.t2.micro"
+  instance_class          = "db.t3.medium"
   identifier              = var.mysql_db_identifier
   username                = var.mysql_username
   password                = var.mysql_password
